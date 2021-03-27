@@ -51,7 +51,7 @@
 .l-header-right .l-header-contact .l-header-txt{
   font-size: 1.4rem;
 }
-.l-header-right .l-header-contact .l-header-tell {
+.l-header-tell {
   font-size: 3rem;
   line-height: 40px;
   font-weight: bold;
@@ -109,32 +109,31 @@
     display: block;
   }
   .l-header-right {
-    /* display: none; */
-    overflow-y: auto;
-  }
-  .l-header-right {
-    display: block;
+    display: none;
     right: 0;
-    padding: 40px 20px;
+    padding: 30px 20px;
     width: 100%;
     text-align: center;
+    font-weight: bold;
     background: #fff;
+    overflow-y: scroll;
   }
   .l-header-right .l-header-list {
     display: block;
     font-size: 1.8rem; 
-    line-height: 60px; 
+    line-height: 60px;
   }
   .l-header-right .l-header-contact {
     display: block;
     text-align: center;
   }
   .l-header-right .l-header-contact .l-header-tell {
-    font-size: 3rem;
+    font-size: 2.6rem;
     margin-left: 0;
   }
   .l-header-right .time {
     display: inline-block;
+    margin-top: 20px;
   }
   .l-header-right .time tbody tr td {
     font-weight: bold;
@@ -178,6 +177,11 @@
   }
 }
 @media (max-width: 768px) {
+  .l-header-right .l-header-list {
+    display: block;
+    font-size: 1.8rem; 
+    line-height: 50px;
+  }
   .l-header {
     width: 100%;
     height: 80px;
@@ -281,59 +285,59 @@
 
 /*** about ***/
 
-.about .c-box {
+#about .c-box {
   display: flex;
   justify-content: center;
 }
-.about .c-box li{
+#about .c-box li{
   width: 450px;
   margin: 0 2rem;
 }
-.about .c-box li img{
+#about .c-box li img{
   display: block;
   margin: 2rem auto;
   border-radius: 20px;
 }
-.about .c-box .c-box-ttl{
+#about .c-box .c-box-ttl{
   font-size: 2.4rem;
   font-weight: bold;
   margin: 2rem auto 3rem;
 }
 @media (max-width: 768px) {
-  .about .c-box {
+  #about .c-box {
     display: block;
   }
-  .about .c-box li{
+  #about .c-box li{
     max-width: 450px;
     width: 100%;
     margin: 0 auto 5rem;
   }
-  .about .c-box .c-subTitle{
+  #about .c-box .c-subTitle{
     margin: 2rem auto;
   }
 }
 @media (max-width: 480px) {
-  .about .c-box .c-subTitle{
+  #about .c-box .c-subTitle{
     font-size: 2rem;
   }
 }
 /*** about ***/
 
 /*** examination ***/
-.examination {
+#examination {
   background: #F7F5F2;
 }
-.examination .c-box {
+#examination .c-box {
   display: flex;
   justify-content: center;
 }
-.examination .c-subTitle{
+#examination .c-subTitle{
   font-size: 2.4rem;
   text-align: center;
   max-width: 780px;
   margin: 0 auto 4rem;
 }
-.examination .c-box li{
+#examination .c-box li{
   position: relative;
   width: 450px;
   margin: 0 2rem;
@@ -342,16 +346,16 @@
   border: 1px solid #ddd;
   border-radius: 20px;
 }
-.examination .c-box .c-box-ttl{
+#examination .c-box .c-box-ttl{
   font-size: 2.4rem;
   font-weight: bold;
   text-align: center;
   margin: 2rem auto 3rem;
 }
-.examination .c-box .c-box-txt{
+#examination .c-box .c-box-txt{
   margin: 0 0 20rem;
 }
-.examination .c-box li img{
+#examination .c-box li img{
   position: absolute;
   left: 50%;
   bottom: 3rem;
@@ -360,27 +364,27 @@
   height: 150px;
 }
 @media (max-width: 768px) {
-  .examination .c-box {
+  #examination .c-box {
     display: block;
   }
-  .examination .c-box li{
+  #examination .c-box li{
     max-width: 450px;
     width: 100%;
     margin: 0 auto 5rem;
   }
-  .examination .c-subTitle{
+  #examination .c-subTitle{
     font-size: 2rem;
   }
 }
 @media (max-width: 480px) {
-  .examination .c-box .c-subTitle{
+  #examination .c-box .c-subTitle{
     font-size: 2rem;
   }
 }
 /*** examination ***/
 
 /*** news ***/
-.news .c-box{
+#news .c-box{
   position: relative;
   max-width: 1000px;
   background: #F7F5F2;
@@ -389,36 +393,36 @@
   margin: 0 auto;
   padding: 2rem 2rem 7rem;
 }
-.news .c-box li{
+#news .c-box li{
   position: relative;
   border-bottom: 1px solid #ddd;
 }
-.news .c-box li a{
+#news .c-box li a{
   display: block;
   padding: 2rem;
 }
-.news .c-box li span{
+#news .c-box li span{
   font-weight: bold;
   color: #21a937;
   margin: 0 5rem 0 0;
   width: 200px;
 }
-.news .c-box .link-more {
+#news .c-box .link-more {
   position: absolute;
   bottom: 2rem;
   right: 4rem;
   padding: .5rem;
 }
 @media (max-width: 768px) {
-  .examination .c-box {
+  #examination .c-box {
     display: block;
   }
-  .examination .c-box li{
+  #examination .c-box li{
     max-width: 450px;
     width: 100%;
     margin: 0 auto 5rem;
   }
-  .news .c-box li span{
+  #news .c-box li span{
     display: block;
     font-weight: bold;
     color: #21a937;
@@ -429,24 +433,24 @@
 /*** news ***/
 
 /*** access ***/
-.access {
+#access {
   background: #F7F5F2;
 }
-.access .c-box{
+#access .c-box{
   display: flex;
 }
-.access .c-box .adress{
+#access .c-box .adress{
   width: 48%;
   margin: 0 4% 0 0;
 }
-.access .c-box .adress .c-subTitle{
+#access .c-box .adress .c-subTitle{
   position: relative;
   font-size: 3rem;
   font-weight: bold;
   padding: 0 0 0 4rem;
   margin: 0 0 2rem;
 }
-.access .c-box .adress .c-subTitle::before {
+#access .c-box .adress .c-subTitle::before {
   content: '';
   display: inline-block;
   position: absolute;
@@ -459,53 +463,53 @@
   background-size: contain;
   background-repeat: no-repeat;
 }
-.access .c-box .adress dt {
+#access .c-box .adress dt {
   font-size: 3rem;
   font-weight: bold;
   margin: 0 0 1rem;
   padding: 0 0 0 .5rem;
   border-left: 10px solid #21a937;
 }
-.access .c-box .adress dd {
+#access .c-box .adress dd {
   font-size: 2rem;
   margin: 0 0 2rem;
   padding: 0 0 0 .5rem;
 }
-.access .c-box .adress dd span{
+#access .c-box .adress dd span{
   display: block;
   position: relative;
   font-size: 1.6rem;
   margin: 0 0 2rem;
   padding: 0 0 0 1.6rem;
 }
-.access .c-box .adress dd span::before{
+#access .c-box .adress dd span::before{
   content: "※";
   position: absolute;
   left: 0;
 }
-.access .c-box .map{
+#access .c-box .map{
   width: 48%;
 }
-.access .c-box .map iframe{
+#access .c-box .map iframe{
   width: 100%;
 }
 @media (max-width: 768px) {
-  .access .c-box{
+  #access .c-box{
     flex-direction: column-reverse;
   }
-  .access .c-box .adress{
+  #access .c-box .adress{
     width: 100%;
     max-width: 420px;
     margin: 0 auto;
   }
-  .access .c-box .adress .c-subTitle{
+  #access .c-box .adress .c-subTitle{
     position: relative;
     font-size: 2.4rem;
     font-weight: bold;
     padding: 0 0 0 3rem;
     margin: 0 0 2rem;
   }
-  .access .c-box .adress .c-subTitle::before {
+  #access .c-box .adress .c-subTitle::before {
     content: '';
     display: inline-block;
     position: absolute;
@@ -518,26 +522,26 @@
     background-size: contain;
     background-repeat: no-repeat;
   }
-  .access .c-box .adress dt {
+  #access .c-box .adress dt {
     font-size: 2.4rem;
     font-weight: bold;
     margin: 0 0 1rem;
     padding: 0 0 0 .5rem;
     border-left: 10px solid #21a937;
   }
-  .access .c-box .adress dd {
+  #access .c-box .adress dd {
     font-size: 1.6rem;
     margin: 0 0 2rem;
     padding: 0 0 0 .5rem;
   }
-  .access .c-box .adress dd span{
+  #access .c-box .adress dd span{
     display: block;
     position: relative;
     font-size: 1.4rem;
     margin: 0 0 2rem;
     padding: 0 0 0 1.6rem;
   }
-  .access .c-box .map{
+  #access .c-box .map{
     width: 100%;
     margin: 0 auto 4rem;
   }
@@ -587,6 +591,8 @@
   background-repeat: no-repeat;
 }
 .l-footer__inner .time{
+  display: flex;
+  margin: auto;
   width: 48%;
 }
 .l-footer__inner .time table{
@@ -595,14 +601,7 @@
   font-size: 2rem;
   margin: 0 auto;
 }
-.l-footer__inner .time thead tr th{
-  padding: 1rem .5rem;
-}
-.l-footer__inner .time tbody tr th{
-  padding: 1rem .5rem;
-}
 .l-footer__inner .time tbody tr td{
-  padding: 1rem .5rem;
   font-weight: bold;
   color: #21a937;
   text-align: center;

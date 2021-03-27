@@ -3,14 +3,19 @@ $(function () {
     //ヘッダーの高さ分だけコンテンツを下げる
     $(function() {
       var height=$(".l-header").height();
+      var wheight=window.innerHeight;
       $(".l-content").css("margin-top", height);
       if ($(window).width() <= 1000) {
+        $(".l-header-right").css("display", "none");
+        $(".l-header-right").css("height", wheight-height);
         $(".l-header-right").css("margin-top", -3);
-      } 
-      // else {
-      //   $(".l-header-right").css("margin-top", 0);
-      // }
-      return;
+      }
+      else {
+        $(".l-header-right").css("display", "flex");
+        $(".l-header-right").css("height", height);
+        $(".l-header-right").css("margin-top", 0);
+      }
+      return true;
     });
   });
 });
@@ -21,6 +26,9 @@ $(function () {
     $('.l-header-right').toggleClass('active');
     if ($('.l-header-right').hasClass('active')) {
       $('.l-header-right').addClass('active');
+      $('.l-header-right').css({
+        display: "block"
+      });
       $('.ham_line1').css({
         transform: "rotate(45deg)",
         top: "46px",
@@ -37,9 +45,11 @@ $(function () {
         opacity: "0.3",
         transition: "0.5s ease-out"
       });
-      return;
     } else {
       $('.l-header-right').removeClass('active');
+      $('.l-header-right').css({
+        display: "none"
+      });
       $('.ham_line1').css({
         transform: "",
         top: ""
@@ -56,29 +66,21 @@ $(function () {
         opacity: "",
         transition: ""
       });
-      return;
     }
+  });
+  $('a[href^=#]').click(function () {
+    var href = $(this).attr("href");
+    var target = $(href == "#" || href == "" ? 'html' : href);
+    var position = target.offset().top - headerHight; //ヘッダの高さ分位置をずらす
+    $("html, body").animate({ scrollTop: position }, 550, "swing");
+    return false;
+  });
+  $('.l-header-list a[href]').click(function () {
+    $('.l-header-right').removeClass('active');
   });
 });
 
-//   $('.globalMenu a[href]').on('click', function (event) {
-//     $('.hamburger').trigger('click');
-//   });
-
-// });
-
-// // アコーディオンメニュー
-// $(function () {
-//   $('.accordion-content02').hide();
-//   $('.accordion-content03').hide();
-//   $('.accordion-click').click(function () {
-//     $(this).next().slideToggle();
-//     return false;
-//   });
-// });
-
-
-// // ページ内リンク
+// ページ内リンク
 // $(function () {
 //   var headerHight = 100; //ヘッダの高さ
 //   $('a[href^=#]').click(function () {

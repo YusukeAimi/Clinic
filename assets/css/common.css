@@ -1,1 +1,37 @@
-a
+* {
+  color: #707070;
+  font-family: "Tsukushi A Round Gothic","筑紫A丸ゴシック";
+  font-size: inherit;
+  line-height: inherit;
+}
+.p-chapter{
+  width: 100%;
+  padding: 6rem 0 10rem;
+}
+.p-chapter__inner{
+  display: block;
+  margin: 0 auto;
+  max-width: 1100px;
+  padding: 0 2rem;
+}
+.c-title {
+  font-size: 4rem;
+  text-align: center;
+  padding: 0 0 8rem;
+  text-decoration: underline;
+  text-decoration-color: rgba(33, 169, 55, .5);
+  text-decoration-thickness: 1rem;
+  text-underline-offset: -1rem;
+}
+@media (max-width: 768px) {
+  .c-title {
+    font-size: 3.2rem;
+    padding: 2rem 0 6rem;
+  }
+}
+@media (max-width: 480px) {
+  .c-title {
+    font-size: 2.6rem;
+    padding: 2rem 0 4rem;
+  }
+}

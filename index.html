@@ -1,207 +1,298 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ja">
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>石井総合内科クリニック</title>
-  <meta name="description" content="石井総合内科は山形県山形市七日町の総合内科です">
-  <meta name=“robots” content=“noindex”>
-  <link rel="stylesheet" href="reset.css">
-  <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+  <title>佐藤歯科クリニック</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <meta name="format-detection" content="telephone=no">
+
+  <!-- CSS -->
+  <link href="./assets/css/reset.css" rel="stylesheet" type="text/css" media="all">
+  <link href="./assets/css/common.css" rel="stylesheet" type="text/css" media="all">
+  <link href="./assets/css/style.css" rel="stylesheet" type="text/css" media="all">
+
+  <!--javascript-->
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"></script>
+  <script src="./assets/js/script.js"></script>
+
+  <meta name="robots" content="noindex">
+
+  <!-- <meta name="Keywords" content="">
+  <meta name="Description" content="">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="">
+  <meta property="og:site_name" content="">
+  <meta property="og:description" content="">
+  <meta property="og:image" content="">
+  <meta property="og:locale" content="ja_JP">
+  <meta name="twitter:card" content="summary_large_image"> -->
+
 </head>
 
-<body>
-  <header>
-    <div class="header-inner">
-      <div class="header-logo">
-        <a href="#">
-          <img class="pc" src="img/group@2x.png" alt="石井総合内科クリニック">
-          <img class="mobile" src="img/group.png" alt="石井総合内科クリニック">
+<body class="home">
+
+  <!-- header -->
+  <header class="l-header">
+    <div class="l-header__inner">
+
+      <h1 class="l-header-ttl">
+        <a href="">
+          <img src="./assets/img/title.svg" alt="佐藤歯科クリニック">
         </a>
-      </div>
-      <div class="header-items">
-        <p>受付時間 8:30~18:00<br class="mobile"> 平日・土(日祝はお休み)</p>
-        <div class="tell">
-          <div class="tell-img">
-            <img class="pc" src="img/tell@2x.png">
-            <img class="mobile" src="img/tell.png">
-          </div>
-          <a class="green" href="tel:+81-00-0000-0000">000-0000-0000</a>
+      </h1>
+
+      <div class="l-header-right">
+        <ul class="l-header-list">
+          <li><a href="">トップ</a></li>
+          <li><a href="">当院について</a></li>
+          <li><a href="">診察内容</a></li>
+          <li><a href="">お知らせ</a></li>
+          <li><a href="">アクセス</a></li>
+        </ul>
+        <div class="l-header-contact">
+          <p class="l-header-txt">ご予約・お問い合わせはこちら</p>
+          <p class="l-header-tell">
+            <img src="./assets/img/phone.svg" alt="">
+            000-000-0000
+          </p>
         </div>
-      </div><!-- .header-items -->
-    </div><!-- .header-inner -->
+        <div class="time">
+          <table>
+            <thead>
+              <tr>
+                <th>診察時間</th>
+                <th>月</th>
+                <th>火</th>
+                <th>水</th>
+                <th>木</th>
+                <th>金</th>
+                <th>土</th>
+                <th>日祝</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th>9:00-<br>12:30</th>
+                <td>●</td>
+                <td>●</td>
+                <td>ー</td>
+                <td>●</td>
+                <td>●</td>
+                <td>●</td>
+                <td>ー</td>
+              </tr>
+              <tr>
+                <th>14:30-<br>18:00</th>
+                <td>●</td>
+                <td>●</td>
+                <td>ー</td>
+                <td>●</td>
+                <td>●</td>
+                <td>●</td>
+                <td>ー</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+
+      <div id="hamburgerBtn">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      </nav>
+    </div>
   </header>
 
-  <div class="mv">
-    <div class="mv-bg">
-      <div class="mv-ttl">
-        <h1 class="mv-txt">石 井 ク リ ニ ッ ク は こ れ か ら も</h1>
-        <h1 class="mv-txt">山 形 の 皆 様 の <span class="green" style="font-weight: bold;">か か り つ け 医 </span>で す </h1>
-      </div>
-    </div><!-- .mv-bg -->
-  </div><!-- .mv -->
+  <!-- content -->
+  <div class="l-content">
+    <main class="l-main">
+      <article>
 
-  <section class="about">
-    <div class="about-inner">
-      <div class="about-content">
-        <div class="about-ttl">
-          <p>山形で治療し続けて30年</p>
-        </div>
-        <div class="about-ttl">
-          <p>笑顔をお守りします</p>
-        </div>
-        <p class="about-txt pc">
-          ここ山形の地で当院を開院し30年が経ちました。<br>
-          皆様の笑顔を守るお手伝いをさせていただきました。<br>
-          いつも皆様のそばにある”山形県民のかかりつけ医”として<br>
-          これからも誠心誠意対応させていただきます。
-        </p>
-        <p class="about-txt mobile">
-          ここ山形の地で当院を開院し30年が経ちました。
-          皆様の笑顔を守るお手伝いをさせていただきました。
-          いつも皆様のそばにある”山形県民のかかりつけ医”として
-          これからも誠心誠意対応させていただきます。
-        </p>
-      </div><!-- /.about-content -->
-      <div class="about-img">
-        <img class="pc" src="img/2714673_m@2x.png">
-        <img class="mobile" src="img/2714673_m.png">
-      </div>
-    </div><!-- /.about-inner -->
-  </section><!-- /.about -->
+        <div class="p-catch">
 
-  <section class="contents">
-    <h2 class="contents-ttl">治療内容</h2>
-    <p class="contents-txt">以下の検査項目以外でも、まずはご相談頂けますと幸いです。</p>
-    <div class="contents-inner">
-      <div class="contents-box">
-        <div class="contents-box-info">
-          <h2>一般的な内科疾患</h2>
-          <p>風邪、扁桃腺炎、発熱、胸痛、むくみ、 動悸、疲れ・疲労、だるい、体重減少、 立ちくらみ、嘔気、嘔吐、吐き気、胸焼け、 食欲不振・減退、肩こり、花粉症、蕁麻疹、 アレルギー性鼻炎など</p>
-        </div>
-        <figure class="contents-box-img">
-          <img class="pc" src="img/g0108@2x.png" alt="">
-          <img class="mobile" src="img/g0108.png" alt="">
-        </figure>
-      </div><!-- /.contents-box -->
-      <div class="contents-box">
-        <div class="contents-box-info">
-          <h2>循環器内科系疾患</h2>
-          <p>狭心症、心筋梗塞、心不全、心臓弁膜症、 不整脈、大動脈瘤、心筋症、心臓発作、 動脈硬化症、急性冠動脈症候群など</p>
-        </div>
-        <figure class="contents-box-img">
-          <img class="pc" src="img/g0099@2x.png" alt="">
-          <img class="mobile" src="img/g0099.png" alt="">
-        </figure>
-      </div><!-- /.contents-box -->
-      <div class="contents-box">
-        <div class="contents-box-info">
-          <h2>消化器内科系疾患</h2>
-          <p>腹痛、急性・慢性胃炎、胃痛、胃・ 十二指腸潰瘍、下痢、便秘、逆流性食道炎、 過敏性腸症候群、食中毒、胃痙攣、胃下垂、 胃もたれ、心窩部（みぞおち）の痛み、 胆石症、急性・慢性肝炎、自己免疫性肝炎、
-            脂肪肝、B型肝炎、C型肝炎、肝硬変など</p>
-        </div>
-        <figure class="contents-box-img">
-          <img class="pc" src="img/g0092@2x.png" alt="">
-          <img class="mobile" src="img/g0092.png" alt="">
-        </figure>
-      </div><!-- /.contents-box -->
-    </div><!-- /.contents-inner -->
-    <h2 class="contents-ttl">お知らせ</h2>
-    <div class="news-box">
-      <div class="news-container">
-        <ul>
-          <li class="news-ttl">
-            <time datetime="2020.06.28" class="green">2020.06.28</time>
-            <p class="news-tag">休診情報</p>
-            <p class="news-txt">2021年1月の休診日は5日、17日、27日となります。</p>
-          </li>
-          <li class="news-ttl">
-            <time datetime="2020.06.28" class="green">2020.06.28</time>
-            <p class="news-tag">イベント</p>
-            <p class="news-txt">当院でクリスマスイベントを行います。南高校吹奏楽団をお呼びして、ロビーコンサートを開催予定です。</p>
-          </li>
-          <li class="news-ttl">
-            <time datetime="2020.06.28" class="green">2020.06.28</time>
-            <p class="news-tag">採用</p>
-            <p class="news-txt">当院では臨床検査技師を募集しております。詳しい福利厚生についてご説明させていただきます。当院で働く…</p>
-          </li>
-          <li class="news-ttl">
-            <time datetime="2020.06.28" class="green">2020.06.28</time>
-            <p class="news-tag">イベント</p>
-            <p class="news-txt">ホームページをリニューアルしました。</p>
-          </li>
-        </ul>
-        <a href="#">すべて見る &#9654;</a>
-      </div>
-    </div><!-- /.news-box -->
-  </section><!-- /.contents -->
-
-  <footer>
-    <div class="footer-contents">
-      <div class="map">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6266.375023515753!2d140.3371545734541!3d38.25195691870136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f8bb603d4436fcd%3A0xa50e3433978fc243!2z44CSOTkwLTAwNDIg5bGx5b2i55yM5bGx5b2i5biC5LiD5pel55S6!5e0!3m2!1sja!2sjp!4v1605121066503!5m2!1sja!2sjp"
-          frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0">
-        </iframe>
-      </div>
-      <div class="footer-container">
-        <img class="footer-img pc" src="img/group2@2x.png">
-        <img class="footer-img mobile" src="img/group2.png">
-        <p class="adress">〒000-0000</p>
-        <p class="adress">山形県山形市七日町xxxxxx</p>
-        <div class="footer-tell">
-          <div class="footer-tell-img">
-            <img class="pc" src="img/tell@2x.png">
-            <img class="mobile" src="img/tell.png">
-          </div>
-          <a class="green" href="tel:+81-00-0000-0000">000-0000-0000</a>
-        </div>
-        <div class="info">
-          <div class="info-content">
-            <div class="info-ttl">
-              <p>診療時間</p>
-            </div>
-            <div class="day-cotainer">
-              <div class="day">
-                <p class="green-under">月・火</p>
-                <p class="info-time">午前 8:30~12:30</p>
-                <p class="info-time">午後 15:00~18:30</p>
-              </div>
-              <div class="day">
-                <p class="green-under">木・金</p>
-                <p class="info-time">午前 8:30~12:30</p>
-                <p class="info-time">午後 15:30~19:00</p>
-              </div>
-              <div class="day">
-                <p class="green-under">土・水</p>
-                <p class="info-time">午前 8:30~12:30</p>
-                <p class="info-time">午後 14:00~18:00</p>
-              </div>
+          <div class="p-catch__inner">
+            <img src="./assets/img/mv.jpg" alt="">
+            <div class="p-catch__title">
+              <p>患者さんひとりひとりに合わせた</p>
+              <p>治療法をご提案させていただきます</p>
             </div>
           </div>
-          <div class="info-content" style="margin-top: 20px;">
-            <div class="info-ttl space-pc">
-              <p>休診日&emsp;</p>
-            </div>
-            <div class="info-ttl space-tab">
-              <p>休診日</p>
-            </div>
-            <div class="day-cotainer">
-              <div class="day">
-                <p>日曜・祝日</p>
-              </div>
-            </div>
-          </div>
-        </div><!-- /.info -->
-      </div><!-- /.footer-container -->
-    </div><!-- /.footer-contents -->
 
-    <div class="copyright">
-      <p>© ISHII SOUGOU NAIKA CLINIC, All Rights Reserved.</p>
+        </div>
+        <!-- p-catch -->
+
+        <div class="p-body">
+
+          <!-- 当院紹介 -->
+          <section class="p-chapter about">
+            <div class="p-chapter__inner">
+              <h2 class="c-title effect-fade">当院紹介</h2>
+              <ul class="c-box effect-fade">
+                <li>
+                  <img src="https://placehold.jp/300x300.png" alt="">
+                  <p class="c-box-ttl">患者様や親御さんの希望に応じた最適な治療方法を選択できます</p>
+                  <p>
+                    治療方法は患者様の状況に応じて柔軟に対応しています。当院では1つの治療法に限定せず、患者様や親御さんの希望に応じて、治療に使用する装置や治療方法を考えています。<br>治療終了後はその状態をできるだけ維持できる様に定期的なメインテナンスを行う治療計画を立案させていただきます。
+                  </p>
+                </li>
+                <li>
+                  <img src="https://placehold.jp/300x300.png" alt="">
+                  <p class="c-box-ttl">最新の歯科医療技術・設備を導入し、万全の環境を整備しております</p>
+                  <p>
+                    歯科医療では、精密な診断が求められます。患者様の歯型取りの回数をできるだけ少なくするために、新しい機械を取り入れています。短時間で高解像度の断層写真が撮影でき、診断の精度を高めています。<br>コードレスの電子機器を採用するなどして、開放感と清潔感のある院内を保つことで、リラックスして受診いただける環境を整えています
+                  </p>
+                </li>
+                <li>
+                  <img src="https://placehold.jp/300x300.png" alt="">
+                  <p class="c-box-ttl">患者様の負担を減らし、通いやすい施設づくりをしています</p>
+                  <p>
+                    プライバシーに配慮し完全個室の診察室をご用意しています。また、診療室にもキッズルームを設けており、親子連れでも気兼ねなく通えるクリニックを目指しています。<br>診察後は自動会計システムで待ち時間なしでお会計をすることが可能です。<br>駅から徒歩5分と通いやすく、患者さま専用の駐車場・駐輪場もご用意しております。
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </section>
+          <!-- 当院紹介 -->
+
+          <!-- 診察内容 -->
+          <section class="p-chapter examination">
+            <div class="p-chapter__inner">
+              <h2 class="c-title effect-fade">診察内容</h2>
+              <p class="c-subTitle">一般治療・歯科・小児歯科を始め自由診療なども行なっていますので、以下の項目以外でも、まずはご相談頂けますと幸いです。</p>
+              <ul class="c-box effect-fade">
+                <li>
+                  <p class="c-box-ttl">一般歯科・小児歯科</p>
+                  <p class="c-box-txt">
+                    治療方法は患者様の状況に応じて柔軟に対応しています。当院では1つの治療法に限定せず、患者様や親御さんの希望に応じて、治療に使用する装置や治療方法を考えています。<br>治療終了後はその状態をできるだけ維持できる様に定期的なメインテナンスを行う治療計画を立案させていただきます。
+                  </p>
+                  <img src="https://placehold.jp/300x300.png" alt="">
+                </li>
+                <li>
+                  <p class="c-box-ttl">予防歯科</p>
+                  <p class="c-box-txt">
+                    歯科医療では、精密な診断が求められます。患者様の歯型取りの回数をできるだけ少なくするために、新しい機械を取り入れています。短時間で高解像度の断層写真が撮影でき、診断の精度を高めています。<br>コードレスの電子機器を採用するなどして、開放感と清潔感のある院内を保つことで、リラックスして受診いただける環境を整えています
+                  </p>
+                  <img src="https://placehold.jp/300x300.png" alt="">
+                </li>
+                <li>
+                  <p class="c-box-ttl">矯正歯科</p>
+                  <p class="c-box-txt">
+                    プライバシーに配慮し完全個室の診察室をご用意しています。また、診療室にもキッズルームを設けており、親子連れでも気兼ねなく通えるクリニックを目指しています。<br>診察後は自動会計システムで待ち時間なしでお会計をすることが可能です。<br>駅から徒歩5分と通いやすく、患者さま専用の駐車場・駐輪場もご用意しております。
+                  </p>
+                  <img src="https://placehold.jp/300x300.png" alt="">
+                </li>
+              </ul>
+            </div>
+          </section>
+          <!-- 診察内容 -->
+
+          <!-- お知らせ -->
+          <section class="p-chapter news">
+            <div class="p-chapter__inner">
+              <h2 class="c-title effect-fade">お知らせ</h2>
+              <ul class="c-box effect-fade">
+                <li><a href=""><span>2020.12.31</span>今年も一年ありがとうございました</a></li>
+                <li><a href=""><span>2020.12.15</span>2021年1月の休診日のお知らせ</a></li>
+                <li><a href=""><span>2020.12.01</span>年末年始休診のお知らせ</a></li>
+                <li><a href=""><span>2020.12.01</span>新型コロナウイルスの感染防止対策について</a></li>
+                <li><a href=""><span>2020.12.01</span>ホームページをリニューアルしました</a></li>
+                <a class="link-more" href="">すべて見る▶︎</a>
+              </ul>
+            </div>
+          </section>
+
+          <!-- アクセス -->
+          <section class="p-chapter access">
+            <div class="p-chapter__inner">
+              <h2 class="c-title effect-fade">アクセス</h2>
+              <div class="c-box effect-fade">
+                <div class="adress">
+                  <p class="c-subTitle">京都府京都市下京区東塩小路◯-○</p>
+                  <dl>
+                    <dt>電車でお越しの方</dt>
+                    <dd>〇〇駅から徒歩５分、〇〇駅から徒歩７分</dd>
+                    <dt>バスでお越しの方</dt>
+                    <dd>京都市バス 〇〇前 バス停より徒歩９分</dd>
+                    <dt>お車でお越しの方</dt>
+                    <dd>専用駐車場３台分、医院横のコインパーキング<br>
+                      <span>お車でご来院される場合は、<br>あらかじめ受付にお申し付けください。</span>
+                    </dd>
+                  </dl>
+                </div>
+                <div class="map">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3268.8327678723667!2d135.7565780155416!3d34.98585337539961!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x600108ae918b02ef%3A0xb61a446e74a21c08!2z5Lqs6YO96aeF!5e0!3m2!1sja!2sjp!4v1615719996355!5m2!1sja!2sjp"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+              </div>
+          </section>
+          <!-- アクセス -->
+
+        </div>
+        <!-- p-body -->
+
+      </article>
+    </main>
+  </div>
+
+  <!-- footer -->
+  <footer class="l-footer">
+    <div class="l-footer__inner">
+      <div class="info">
+        <img src="./assets/img/title.svg" alt="佐藤歯科クリニック">
+        <p>ご予約・お問い合わせはこちらから</p>
+        <p class="info-number">000-000-0000</p>
+      </div>
+      <div class="time">
+        <table>
+          <thead>
+            <tr>
+              <th>診察時間</th>
+              <th>月</th>
+              <th>火</th>
+              <th>水</th>
+              <th>木</th>
+              <th>金</th>
+              <th>土</th>
+              <th>日祝</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th>9:00-<br>12:30</th>
+              <td>●</td>
+              <td>●</td>
+              <td>ー</td>
+              <td>●</td>
+              <td>●</td>
+              <td>●</td>
+              <td>ー</td>
+            </tr>
+            <tr>
+              <th>14:30-<br>18:00</th>
+              <td>●</td>
+              <td>●</td>
+              <td>ー</td>
+              <td>●</td>
+              <td>●</td>
+              <td>●</td>
+              <td>ー</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </div>
   </footer>
+
 </body>
 
 </html>

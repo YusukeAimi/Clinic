@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="523.828" height="60.828" viewBox="0 0 523.828 60.828">
+  <g id="コンポーネント_11_1" data-name="コンポーネント 11 – 1" transform="translate(2.828 2.828)">
+    <g id="tooth" transform="translate(-5 -5)">
+      <line id="線_1" data-name="線 1" x1="4.339" y1="4.342" transform="translate(5 5)" fill="none" stroke="#454545" stroke-linecap="round" stroke-miterlimit="10" stroke-width="4"/>
+      <line id="線_2" data-name="線 2" x1="2.478" transform="translate(5.31 13.991)" fill="none" stroke="#454545" stroke-linecap="round" stroke-miterlimit="10" stroke-width="4"/>
+      <line id="線_3" data-name="線 3" y1="2.481" transform="translate(13.985 5.31)" fill="none" stroke="#454545" stroke-linecap="round" stroke-miterlimit="10" stroke-width="4"/>
+      <path id="パス_1" data-name="パス 1" d="M109.89,22.147a15.379,15.379,0,0,1,25.138,11.894" transform="translate(-74.028 -9.621)" fill="none" stroke="#454545" stroke-linecap="round" stroke-miterlimit="10" stroke-width="4"/>
+      <path id="パス_2" data-name="パス 2" d="M75.093,70.75c0,16.129-7.072,31.972-7.072,31.972-1.081,2.564-2.113,4.726-4.715,4.726s-4.228-1.825-4.715-4.726c0,0-2.357-14.8-8.84-14.8s-8.84,14.8-8.84,14.8c-.295,2.909-2.113,4.726-4.715,4.726s-3.963-2.363-4.715-4.726c0,0-6.483-15.834-6.483-31.963" transform="translate(-14.093 -46.448)" fill="none" stroke="#454545" stroke-linecap="round" stroke-miterlimit="10" stroke-width="4"/>
+      <path id="パス_3" data-name="パス 3" d="M24.79,34.039A15.376,15.376,0,0,1,49.925,22.145" transform="translate(-13.945 -9.619)" fill="none" stroke="#454545" stroke-linecap="round" stroke-miterlimit="10" stroke-width="4"/>
+      <path id="パス_4" data-name="パス 4" d="M43.81,47.743A10.06,10.06,0,0,1,53.852,37.68" transform="translate(-27.376 -23.052)" fill="none" stroke="#454545" stroke-linecap="round" stroke-miterlimit="10" stroke-width="4"/>
+      <path id="パス_5" data-name="パス 5" d="M135.17,43a28.814,28.814,0,0,0,4.971,1.24" transform="translate(-91.812 -26.801)" fill="none" stroke="#454545" stroke-linecap="round" stroke-miterlimit="10" stroke-width="4"/>
+      <path id="パス_6" data-name="パス 6" d="M105.48,27.22a27.843,27.843,0,0,0,5.116,3.154" transform="translate(-70.871 -15.657)" fill="none" stroke="#454545" stroke-linecap="round" stroke-miterlimit="10" stroke-width="4"/>
+    </g>
+    <text id="佐藤歯科クリニック" transform="translate(72 47)" fill="#707070" font-size="50" font-family="TsukuARdGothic-Bold, Tsukushi A Round Gothic" font-weight="700"><tspan x="0" y="0">佐藤歯科クリニック</tspan></text>
+  </g>
+</svg>

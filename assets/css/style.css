@@ -45,7 +45,7 @@
   position: relative;
   height: 30px;
   margin: 0;
-  top: 4px;
+  top: 6px;
   left: 4px;
 }
 .l-header-right .l-header-contact .l-header-txt{
@@ -64,7 +64,7 @@
 #hamburgerBtn {
   display: none;
 }
-@media (max-width: 1200px) {
+@media (max-width: 1240px) {
   .l-header-right .l-header-list {
     position: relative;
     top: -10px;
@@ -111,6 +111,7 @@
   .l-header-right {
     display: none;
     right: 0;
+    margin-top: -3px;
     padding: 30px 20px;
     width: 100%;
     text-align: center;
@@ -552,6 +553,7 @@
 .l-footer {
   width: 100%;
   padding: 4rem;
+  border-top: 1px solid #ddd;
 }
 .l-footer__inner {
   display: flex;
@@ -565,7 +567,7 @@
 }
 .l-footer__inner .info img{
   width: 100%;
-  margin: 3rem 0 2rem;
+  margin: 0 0 2rem;
 }
 .l-footer__inner .info p{
   font-size: 2rem;
@@ -581,7 +583,7 @@
   content: '';
   display: inline-block;
   position: absolute;
-  top: 8px;
+  top: 10px;
   left: 0;
   width: 40px;
   height: 40px;
